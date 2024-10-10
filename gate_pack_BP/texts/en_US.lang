@@ -1,0 +1,3 @@
+pack.name=Gate Behavior Pack
+pack.description=A behavior pack that adds an animated gate with open and close animations.
+ns:gate.name=Animated Gate

@@ -1,0 +1,3 @@
+pack.name=Gate Resource Pack
+pack.description=A resource pack that provides textures and models for the animated gate.
+entity.ns:gate.name=Gate

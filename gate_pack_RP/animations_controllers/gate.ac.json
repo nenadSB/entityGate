@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12.0",
+    "animation_controllers": {
+      "controller.gate": {  
+        "initial_state": "closed", 
+        "states": {
+          "closed": {
+            "animations": ["animation.gate.close"],  
+            "transitions": [
+              {
+                "open": "q.is_open == true"  
+              }
+            ]
+          },
+          "open": {
+            "animations": ["animation.gate.open"], 
+            "transitions": [
+              {
+                "closed": "q.is_open == false" 
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.gate",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "gate",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "left_side_blocks",
+					"parent": "gate",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [9, 0, -8], "size": [11, 12, 16], "uv": [0, 0]},
+						{"origin": [9, 12, -5], "size": [7, 12, 10], "uv": [0, 56]},
+						{"origin": [9, 24, -5], "size": [7, 13, 10], "uv": [54, 27]}
+					]
+				},
+				{
+					"name": "right_side_blocks",
+					"parent": "gate",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-20, 0, -8], "size": [11, 12, 16], "uv": [0, 28]},
+						{"origin": [-16, 12, -5], "size": [7, 12, 10], "uv": [34, 73]},
+						{"origin": [-16, 24, -5], "size": [7, 13, 10], "uv": [54, 50]}
+					]
+				},
+				{
+					"name": "hooks",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [8, 5, -1], "size": [1, 2, 2], "uv": [34, 56]},
+						{"origin": [8, 19, -1], "size": [1, 2, 2], "uv": [40, 56]}
+					]
+				},
+				{
+					"name": "door",
+					"pivot": [8, 0, 0],
+					"cubes": [
+						{"origin": [-8, 1, -2], "size": [16, 23, 4], "uv": [54, 0]}
+					]
+				},
+				{
+					"name": "upper_part",
+					"parent": "door",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 21, -2], "size": [6, 18, 4], "pivot": [-3, 24, 0], "rotation": [-0.0852, 0.13012, 36.74829], "uv": [68, 73]},
+						{"origin": [0, 21, -2], "size": [6, 18, 4], "pivot": [3, 24, 0], "rotation": [0.0852, 0.13012, -36.74829], "uv": [0, 78]}
+					]
+				}
+			]
+		}
+	]
+}

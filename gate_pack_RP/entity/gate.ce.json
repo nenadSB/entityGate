@@ -1,0 +1,34 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": 
+    {
+        "description": 
+        {
+            "identifier": "ns:gate",  
+            "materials": 
+            {
+                "default": "entity_alphatest"  
+            },
+            "textures": 
+            {
+                "default": "textures/entity/gate"  
+            },
+            "geometry": 
+            {
+                "default": "geometry.gate"  
+            },
+            "scripts": 
+            {
+                "animate": ["open_controller", "close_controller"]  
+            },
+            "animations": 
+            {
+                "open_controller": "animation.gate.open",  
+                "close_controller": "animation.gate.close",
+                "open": "animation.gate.open",  
+                "close": "animation.gate.close" 
+            },
+            "render_controllers": ["controller.render.gate"] 
+        }
+    }
+}

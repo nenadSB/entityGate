@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "sounds": {
+    "gate_open": {
+      "sounds": [
+        "sounds/gate_open.ogg"
+      ]
+    },
+    "gate_close": {
+      "sounds": [
+        "sounds/gate_close.ogg"
+      ]
+    }
+  }
+}
+  

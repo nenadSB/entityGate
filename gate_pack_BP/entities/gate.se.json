@@ -1,0 +1,41 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": 
+    {
+      "description": 
+      {
+        "identifier": "ns:gate",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      
+      "components": 
+      {
+        "minecraft:scale": 4.0,
+        "minecraft:collision_box": 
+        {
+          "width": 2.0,
+          "height": 3.0
+        },
+        "minecraft:physics": 
+        {
+          "has_gravity": true,  
+          "has_collision": true 
+        },
+       
+        "minecraft:pushable": 
+        {
+          "is_pushable": false,  
+          "pushable_by_mobs": false 
+        },
+        "minecraft:health": 
+        {
+          "value": 10
+        }
+      }
+      
+      
+    }
+  }
+  
